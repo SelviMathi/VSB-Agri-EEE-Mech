@@ -32,14 +32,10 @@ public class Main {
 5.Max of 3 numbers
 
 6.Write a program that prompts the user to input a number. The program should then output the number and a message saying whether the number is positive, negative, or zero.
-
 Input format :
 The input consists of a number.
-
 Output format :
 The output prints whether the number is positive, negative or zero.
-
-Refer sample input and output for formatting specifications.
 
 Sample test cases :
 Input 1 :
@@ -56,30 +52,16 @@ Output 3 :
 0 is zero
 
 7.In a famous jewelry, customers are grouped according to age and gender.
-
-
-
-Group1 Males under 25 years old
-
+Group 1 Males under 25 years old
 Group 2 Females under 25 years old
-
 Group 3 Males between 25 - 45 years old
-
 Group 4 Females between 25 - 45 years old
-
 Group 5 All people over 45 years old.
 
-
-
 Babu wants to write a program to display the customer's group. Help Babu. 
-
-
-
 Note : Gender code for a male is 1 and for female is 2. Display Invalid if user enters other gender codes
-
 Input format :
 Age in first line
-
 Gender code in second line
 
 Output format :
@@ -143,18 +125,11 @@ Output 2 :
 No. You are not eligible for SBI credit cards
 
 9.Kalyani Jewellers has planned to build a new showroom in Coimbatore city. They have selected the area to build the showroom and it is in a triangle shape. Ravi, a civil engineer from VIP construction is the in-charge of this project. Ragavan, founder of VIP construction asked Ravi to find the exact shape of the selected area. Help Ravi to find the exact triangle shape.
-
-
-
 Equilateral Triangle - If all sides are equal
-
 Isosceles Triangle - If any two sides equal
-
 Scalene Triangle - No sides are equal
-
 Input format :
 Sides of the triangle in the separate lines
-
 Output format :
 The output prints the type of triangle.
 
