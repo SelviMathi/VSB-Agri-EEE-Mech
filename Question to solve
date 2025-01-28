@@ -63,7 +63,22 @@ Input 1 :
 Output 1 :
 305.40 7635.00
 
-6.Max of 2 numbers
+6.Max & Min of 2 numbers
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int num1=sc.nextInt();
+		int num2=sc.nextInt();
+		if(num1>num2)
+		System.out.println("Max:"+num1+"\nMin:"+num2);
+		else
+		System.out.println("Max:"+num2+"\nMin:"+num1);
+		
+		
+	}
+}
 7.Max of 3 numbers
 
 8.Write a program that prompts the user to input a number. The program should then output the number and a message saying whether the number is positive, negative, or zero.
