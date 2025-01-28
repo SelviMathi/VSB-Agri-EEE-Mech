@@ -28,5 +28,154 @@ public class Main {
     }
 }
 
-4.Max of 3 numbers
-5.Max of 4 numbers
+4.Max of 2 numbers
+5.Max of 3 numbers
+
+6.Write a program that prompts the user to input a number. The program should then output the number and a message saying whether the number is positive, negative, or zero.
+
+Input format :
+The input consists of a number.
+
+Output format :
+The output prints whether the number is positive, negative or zero.
+
+Refer sample input and output for formatting specifications.
+
+Sample test cases :
+Input 1 :
+5
+Output 1 :
+5 is positive
+Input 2 :
+-8
+Output 2 :
+-8 is negative
+Input 3 :
+0
+Output 3 :
+0 is zero
+
+7.In a famous jewelry, customers are grouped according to age and gender.
+
+
+
+Group1 Males under 25 years old
+
+Group 2 Females under 25 years old
+
+Group 3 Males between 25 - 45 years old
+
+Group 4 Females between 25 - 45 years old
+
+Group 5 All people over 45 years old.
+
+
+
+Babu wants to write a program to display the customer's group. Help Babu. 
+
+
+
+Note : Gender code for a male is 1 and for female is 2. Display Invalid if user enters other gender codes
+
+Input format :
+Age in first line
+
+Gender code in second line
+
+Output format :
+Group number
+
+Sample test cases :
+Input 1 :
+23
+1
+Output 1 :
+Group 1
+
+
+8.Sanjay got promotion and now he is a manager in the SBI Credit card division. There are basic eligibility criteria required to apply for any SBI Credit Cards.
+
+The age of the primary applicant must be between 21 years to 60 years.
+The age of the add-on card applicant must be above 18 years.
+Must be either salaried, self-employed, student, or retired pensioner.
+Primary applicants should have a stable income (gross) of up to Rs.3 lakh per year.
+
+Accept required inputs from the user, Write a program to check if the person meets the bank’s eligibility criteria.
+
+Input format :
+First line of input is age of the primary applicant
+
+Second line of input is age of the add-on card applicant
+
+Third line of input is employment type code (1 for salaried, 2 self-employed,3 for student, and 4 for retired pensioner)
+
+Fourth line of input is income
+
+Output format :
+
+Eligible / Not Eligible as shown in sample output.
+
+Refer sample output for exact text and format
+
+Code constraints :
+21<=Age of the primary applicant <=60 years
+
+Age of the add-on card applicant>=18 years
+
+1<=Employee code <=4 (Salaried =1, Self-employed=2, Student=3, Retired pensioner=4)
+
+ 
+
+Sample test cases :
+Input 1 :
+45
+20
+2
+300000
+Output 1 :
+Yes. You are eligible for SBI credit cards
+Input 2 :
+45
+15
+2
+300000
+Output 2 :
+No. You are not eligible for SBI credit cards
+
+9.Kalyani Jewellers has planned to build a new showroom in Coimbatore city. They have selected the area to build the showroom and it is in a triangle shape. Ravi, a civil engineer from VIP construction is the in-charge of this project. Ragavan, founder of VIP construction asked Ravi to find the exact shape of the selected area. Help Ravi to find the exact triangle shape.
+
+
+
+Equilateral Triangle - If all sides are equal
+
+Isosceles Triangle - If any two sides equal
+
+Scalene Triangle - No sides are equal
+
+Input format :
+Sides of the triangle in the separate lines
+
+Output format :
+The output prints the type of triangle.
+
+Sample test cases :
+Input 1 :
+18
+18
+18
+Output 1 :
+Equilateral Triangle
+Input 2 :
+12
+25
+15
+Output 2 :
+Scalene Triangle
+Input 3 :
+52
+52
+323
+Output 3 :
+Isosceles Triangle
+
+10.Max of 4 numbers
