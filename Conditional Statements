@@ -1,0 +1,46 @@
+if(condition)  //check only true case
+{
+}
+
+***************************************************************
+if(condition)  //check both true false case
+{
+}
+else
+{
+}
+
+*********************Ladder If******************************************
+if(condition) // pos neg zero
+{
+}
+else if(condition)
+{
+}
+else if(condition)
+{
+}
+else
+{
+}
+
+*********************Nested if else******************************************
+
+if(condition)   //Positive even or odd
+{
+if(condition)
+{
+}
+else
+{
+}
+}
+else
+{
+if(condition)
+{
+}
+else
+{
+}
+}
