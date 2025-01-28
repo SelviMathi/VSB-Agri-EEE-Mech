@@ -34,22 +34,23 @@ Sample Output
 Years:1
 Months:1
 Days:5
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int input=sc.nextInt();
+		System.out.println("Years:"+(input/365)+"\nMonths:"+((input%365)/30)+"\nDays:"+(input%365)%30);
+	}
+}
+
 5.MILEAGE REMUNERATION CALCULATOR
-
 Write a program that calculates mileage remuneration for a salesperson at a rate of Rs.25 per mile. Your program should interact with the user in this manner:
-
 Sample Output 1: (Explanation)
-
 Enter beginning odometer reading: 13505.2
-
 Enter ending odometer reading: 13810.6
-
 You traveled 305.4 miles. At Rs.25 per mile, your remuneration is Rs.7635
-
-
-
 Note: Display the output to two decimal places and round the remuneration value.
-
 Input format :
 The input consists of the values of the beginning and ending odometer reading separated by a space.
 
