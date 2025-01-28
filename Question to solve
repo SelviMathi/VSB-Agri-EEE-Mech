@@ -62,7 +62,18 @@ Input 1 :
 13505.2 13810.6
 Output 1 :
 305.40 7635.00
-
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		float beg=sc.nextFloat();
+		float end=sc.nextFloat();
+		System.out.printf("%.2f\n",(end-beg));
+		float rem=(end-beg)*25.0f;
+		System.out.print(Math.round(rem));
+	}
+}
 6.Max & Min of 2 numbers
 import java.util.*;
 public class Main
