@@ -28,19 +28,19 @@ else
 
 if(condition)   //Positive even or odd
 {
-if(condition)
-{
+  if(condition)
+  {
+  }
+  else
+  {
+  }
 }
 else
 {
-}
-}
-else
-{
-if(condition)
-{
-}
-else
-{
-}
+  if(condition)
+  {
+  }
+  else
+  {
+  }
 }
