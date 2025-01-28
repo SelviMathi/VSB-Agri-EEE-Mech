@@ -24,6 +24,23 @@ else
 {
 }
 
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int num=sc.nextInt();
+		if(num>0)
+		System.out.println("Positive");
+		else if(num<0)
+		System.out.println("Negative");
+		else
+		System.out.println("Zero");
+		
+		
+	}
+}
+
 *********************Nested if else******************************************
 
 if(condition)   //Positive even or odd
@@ -43,4 +60,32 @@ else
   else
   {
   }
+}
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int num=sc.nextInt();
+		if(num>0)
+		{
+		System.out.println("Positive");
+	    	if(num%2==0)
+		        System.out.println("Even");
+		    else
+		        System.out.println("Odd");
+		}
+		else
+		{
+		System.out.println("Negative");
+		    if(num%2==0)
+		        System.out.println("Even");
+		    else
+		        System.out.println("Odd");
+		    
+		}
+		
+		
+	}
 }
