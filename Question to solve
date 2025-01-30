@@ -223,7 +223,68 @@ A
 Sample output 1
 alphabet
 
-14.Sanjay, the Manager of "The Chennai silks" decided to give special Diwali gifts to their customers. He planned to give their different gifts to the customer based on age. Write a suitable program to count the number of customers in each category as per the below information.
+14.Display even numbes between range inclusive of both start and end.
+
+15.Sum of even numbers between 1 to given number
+
+16.Write a program that takes the number N and finds the sum of odd and even numbers from 1 to N.
+
+Input format :
+The input consists of the value of n.
+
+Output format :
+The output prints the sum of odd numbers and the sum of even numbers separated by a space.
+
+Sample test cases :
+Input 1 :
+10
+Output 1 :
+25 30
+Input 2 :
+15
+Output 2 :
+64 56
+
+17.Write a program to find the factorial of the given number.
+
+Input format :
+The input consists of a number.
+
+Output format :
+The output prints the factorial of the given number.
+
+Sample test cases :
+Input 1 :
+5
+Output 1 :
+120
+Input 2 :
+-7
+Output 2 :
+Error! Factorial of a negative number doesn't exist.
+
+18.Print the digits of a given number from right to left
+
+19.Write a program to accept an integer range and print the sum of number that are divisible by either 3 or 5
+
+20.Count of the digits in number
+
+21.Sum of the digits in number
+
+22.Find whether the given number is Harshad Number
+
+Harshad Number : if the number is divisible by sum of digits of the number
+
+
+23.Perfect number or not
+
+24.Prime or not
+
+25.Perfect square or not
+
+26.Fibaonacci Series
+
+27.Sanjay, the Manager of "The Chennai silks" decided to give special Diwali gifts to their customers. He planned to give their different gifts to the customer based on age. Write a suitable program to count the number of customers in each category as per the below information.
 
 
 
@@ -253,6 +314,5 @@ Attending school: 3
 Adult: 10
 
 
-15.Display even numbes between range inclusive of both start and end.
 
 
