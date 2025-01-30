@@ -89,3 +89,27 @@ public class Main
 		
 	}
 }
+
+
+
+switch(var)
+{
+case 1:
+SOP
+break;
+case 2:
+SOP
+break;
+case 3:
+SOP
+break;
+.
+.
+.
+.
+case n:
+SOP
+break;
+default:
+SOP
+}
