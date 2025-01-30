@@ -214,4 +214,45 @@ Input 3 :
 Output 3 :
 Isosceles Triangle
 
-12.Max of 4 numbers
+12.Descending order of 4 numbers
+
+13.You are given a single character. Write a program that determines whether the character is an alphabet (letter), a digit, or a special character
+
+Sample input 1
+A
+Sample output 1
+alphabet
+
+14.Sanjay, the Manager of "The Chennai silks" decided to give special Diwali gifts to their customers. He planned to give their different gifts to the customer based on age. Write a suitable program to count the number of customers in each category as per the below information.
+
+
+
+ Age
+0-5 baby
+6-17 school
+18 above adult
+
+Input format :
+Number of person in first line(N).
+
+Age of each person(N) in second line.
+
+Output format :
+Category wise count as shown in the sample output.
+
+Code constraints :
+Age>=0
+
+Sample test cases :
+Input 1 :
+15
+2 5 9 12 16 19 23 26 30 33 37 40 44 47 51
+Output 1 :
+Baby: 2
+Attending school: 3
+Adult: 10
+
+
+15.Display even numbes between range inclusive of both start and end.
+
+
