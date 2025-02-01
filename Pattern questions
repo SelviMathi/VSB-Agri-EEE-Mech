@@ -152,7 +152,13 @@ KLMNO
 **      **
 *        *
 
-20.input=5
+20.input=3
+Diamond pattern
 
+       *
+      ***
+     *****
+      ***
+       *
 
 
