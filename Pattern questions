@@ -4,7 +4,21 @@
 *****
 *****
 *****
+import java.util.*;
 
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner ob=new Scanner(System.in);
+	    int size=ob.nextInt();
+	    
+	    for(int row=1;row<=size;row++,System.out.println())
+	    {
+	       for(int col=1;col<=size;col++)
+	    		System.out.print("*");
+	    }
+	  }
+}
 
 2.input=5
 *
@@ -13,13 +27,42 @@
 ****
 *****
 
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner ob=new Scanner(System.in);
+	    int size=ob.nextInt();
+	    
+	    for(int row=1;row<=size;row++,System.out.println())
+	    {
+	       for(int col=1;col<=row;col++)
+	    		System.out.print("*");
+	    }
+	  }
+}
 3.input=5
 11111
 22222
 33333
 44444
 55555
+import java.util.*;
 
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner ob=new Scanner(System.in);
+	    int size=ob.nextInt();
+	    
+	    for(int row=1;row<=size;row++,System.out.println())
+	    {
+	       for(int col=1;col<=size;col++)
+	    		System.out.print(row);
+	    }
+	  }
+}
 
 4.input=5
 12345
@@ -27,7 +70,21 @@
 12345
 12345
 12345
+import java.util.*;
 
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner ob=new Scanner(System.in);
+	    int size=ob.nextInt();
+	    
+	    for(int row=1;row<=size;row++,System.out.println())
+	    {
+	       for(int col=1;col<=size;col++)
+	    		System.out.print(col);
+	    }
+	  }
+}
 5.input=5
 
 1  2  3  4  5
@@ -35,7 +92,21 @@
 11 12 13 14 15
 16 17 18 19 20
 21 22 23 24 25
+import java.util.*;
 
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner ob=new Scanner(System.in);
+	    int size=ob.nextInt();
+	    int val=1;
+	    for(int row=1;row<=size;row++,System.out.println())
+	    {
+	       for(int col=1;col<=size;col++)
+	    		System.out.printf("%3d",val++);
+	    }
+	  }
+}
 6.input=5
 ABCDE
 ABCDE
@@ -43,14 +114,45 @@ ABCDE
 ABCDE
 ABCDE
 
+import java.util.*;
 
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner ob=new Scanner(System.in);
+	    int size=ob.nextInt();
+	       
+	       for(int row=1;row<=size;row++,System.out.println())
+	    {
+            char ch='A';
+	    
+	        for(int col=1;col<=size;col++)
+	    		System.out.print(ch++);
+	    }
+	  }
+}
 7.input=5
 ABCDE
 FGHIJ
 KLMNO
 PQRST
 UVWXY
+import java.util.*;
 
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner ob=new Scanner(System.in);
+	    int size=ob.nextInt();
+	    char ch='A';
+	       
+	       for(int row=1;row<=size;row++,System.out.println())
+	    {
+	        for(int col=1;col<=size;col++)
+	    		System.out.print(ch++);
+	    }
+	  }
+}
 
 8.input=5
 1
