@@ -1,0 +1,16 @@
+Function:
+Blocks of code to perform specific tasks.
+Types:
+Predefined-Math.min(),print()........
+User defined
+access_specifier return_type func_name()
+{
+}
+
+
+Write a Java program that implements the following types of functions using a Calculator class:
+
+Function with no parameters and no return type – Displays a welcome message.
+Function with parameters and no return type – Accepts two integers and prints their sum.
+Function with no parameters but a return type – Returns the value of π (pi).
+Function with parameters and a return type – Accepts two integers and returns their product.
