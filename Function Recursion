@@ -14,3 +14,32 @@ Function with no parameters and no return type – Displays a welcome message.
 Function with parameters and no return type – Accepts two integers and prints their sum.
 Function with no parameters but a return type – Returns the value of π (pi).
 Function with parameters and a return type – Accepts two integers and returns their product.
+
+
+Recursion:
+
+Recursion is a programming technique where a function calls itself in order to solve a problem. It is particularly useful for problems that can be broken down into smaller, similar subproblems. A recursive function typically has two parts:
+
+Base Case: The condition under which the recursion stops.
+
+Recursive Case: The part where the function calls itself with a modified argument.
+
+
+Types of Recursion:
+
+1.Direct Recursion: A function calls itself directly.
+
+2.Indirect Recursion: A function calls another function, which eventually calls the first function.
+
+3.Tail Recursion: The recursive call is the last operation in the function.
+Tail recursion can be optimized by compilers to avoid stack overflow.
+
+4.Non-Tail Recursion: The recursive call is not the last operation.
+Additional operations are performed after the recursive call.
+
+5.TREE Recursion
+A recursive function makes more than one recursive call in its body, leading to a tree-like structure of calls.
+
+6.Nested Recursion
+A recursive function calls itself with a recursive call as one of its arguments.
+
