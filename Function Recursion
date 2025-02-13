@@ -7,6 +7,7 @@ access_specifier return_type func_name()
 {
 }
 
+PROGRAM:
 
 Write a Java program that implements the following types of functions using a Calculator class:
 
@@ -29,17 +30,103 @@ Types of Recursion:
 
 1.Direct Recursion: A function calls itself directly.
 
+import java.util.*;
+public class Main
+{
+    public static int sum(int x)
+    {
+        if(x==1)
+        return 1;
+        return x+sum(x-1);
+    }
+    public static void main(String[] args) {
+	    Scanner ob=new Scanner(System.in);
+        int n1=ob.nextInt();
+        System.out.println(sum(n1));
+	
+	}
+}
+
 2.Indirect Recursion: A function calls another function, which eventually calls the first function.
 
+import java.util.*;
+public class Main
+{
+    public static int dis(int x)
+    {
+      if(x==0)
+      return 100;
+      return dis1(x-1);
+    }
+    public static int dis1(int w)
+    {
+     if(w==0)
+     return 200;
+     return dis(w-1);  
+    }
+    public static void main(String[] args) {
+	    Scanner ob=new Scanner(System.in);
+        int n1=ob.nextInt();
+        System.out.println(dis(n1));
+	
+	}
+}
 3.Tail Recursion: The recursive call is the last operation in the function.
 Tail recursion can be optimized by compilers to avoid stack overflow.
+
+import java.util.*;
+public class Main
+{
+    public static void display(int x)
+    {
+        if(x>0)
+        {
+            System.out.print(x+" ");
+                display(x-1);
+         }
+     
+    }
+    
+    public static void main(String[] args) {
+	    Scanner ob=new Scanner(System.in);
+        int n1=ob.nextInt();
+        display(n1);
+	
+	}
+}
 
 4.Non-Tail Recursion: The recursive call is not the last operation.
 Additional operations are performed after the recursive call.
 
+import java.util.*;
+public class Main
+{
+    public static void display(int x)
+    {
+        if(x>0)
+        {
+            display(x-1);
+         System.out.print(x+" ");
+                }
+        
+    }
+    
+    public static void main(String[] args) {
+	    Scanner ob=new Scanner(System.in);
+        int n1=ob.nextInt();
+        display(n1);
+	
+	}
+}
 5.TREE Recursion
 A recursive function makes more than one recursive call in its body, leading to a tree-like structure of calls.
 
 6.Nested Recursion
 A recursive function calls itself with a recursive call as one of its arguments.
+
+PROGRAM
+
+1.Sum of Natural numbers using recursion
+
+2.Factorial using recursion
 
