@@ -1,0 +1,32 @@
+Lower Triangular matrix*****************
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner ob=new Scanner(System.in);
+	    int size=ob.nextInt();
+	    int arr[][]=new int[size][size];
+	       for(int i=0;i<size;i++)
+	    {
+	        for(int j=0;j<size;j++)
+	        arr[i][j]=ob.nextInt();
+	    }
+	     boolean yes=true;
+	    for(int i=0;i<size;i++)
+	    {
+	        for(int j=0;j<size;j++)
+	        {
+	            if(j>i && arr[i][j]!=0)
+	           {
+	               yes=false;
+	               break;
+	          } }   }
+        if(yes)
+        System.out.println("Lower");
+        else 
+        System.out.println("Not lower");
+}
+}
+
+Upper Triangular matrix*****************
