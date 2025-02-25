@@ -1,0 +1,130 @@
+What is OOPS?
+
+Object-oriented programming (OOP) is a programming model that uses classes and objects to create software programs.
+
+
+Why is OOPS?
+
+ Modular Code: Divides code into objects and classes.
+ Reusability: Inheritance allows code reuse.
+ Scalability: New features can be added easily.
+ Security: Encapsulation restricts direct access to data.
+
+Classes: A blueprint or template that defines the structure and behavior of objects 
+
+Objects: An instance of a class, representing a specific entity with its own set of attributes and behaviors
+
+
+
+***********************Class with Single object
+
+import java.util.*;
+class Student
+{
+    public int id;
+    public String name;
+
+}
+
+public class Main
+{	
+public static void main(String[] args) {
+	    
+	    Student[] students=new Student();
+	    
+	    Student s1=new Student();
+	    s1.id=1;
+	    s1.name="Roshan";
+	    System.out.println(s1.id+"->"+s1.name);
+	    
+	}
+}
+
+**********************Class with multiple objects
+
+import java.util.*;
+class Student
+{
+    public int id;
+    public String name;
+
+}
+
+public class Main
+{	
+public static void main(String[] args) {
+	    
+	    Student[] students=new Student();
+	    
+	    Student s1=new Student();
+	    s1.id=1;
+	    s1.name="Roshan";
+	    System.out.println(s1.id+"->"+s1.name);
+	    Student s2=new Student();
+	    s2.id=2;
+	    s2.name="Rohit";
+	    System.out.println(s2.id+"->"+s2.name);
+	    
+	}
+}
+
+*******************Class with mulitple objects Using Array
+import java.util.*;
+class Student
+{
+    public int id;
+    public String name;
+
+}
+
+public class Main
+{	
+public static void main(String[] args) {
+	    
+	    Student[] s=new Student[2];
+	    s[0]=new Student();
+	    s[0].id=1;
+	    s[0].name="Roshan";
+	    System.out.println(s[0].id+"->"+s[0].name);
+	    s[1]=new Student();
+	    s[1].id=2;
+	    s[1].name="Rohit";
+	    System.out.println(s[1].id+"->"+s[1].name);
+	    
+	}
+}
+***************************Class with mulitple objects Using Array/ArrayList
+
+import java.util.*;
+
+class Student {
+    public int id;
+    public String name;
+}
+
+public class Main {
+    public static void main(String[] args) {
+        List<Student> studentList = new ArrayList<>();
+
+        Student s1 = new Student();
+        s1.id = 1;
+        s1.name = "Roshan";
+        studentList.add(s1);
+
+        Student s2 = new Student();
+        s2.id = 2;
+        s2.name = "Rohit";
+        studentList.add(s2);
+
+        for (Student s : studentList) {
+            System.out.println(s.id + " -> " + s.name);
+        }
+    }
+}
+
+
+4 PILLARS OF OOPS
+Encapsulation
+Inheritance
+Abstraction
+Polymorphism
