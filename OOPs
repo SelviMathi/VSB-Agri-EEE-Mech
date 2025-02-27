@@ -30,9 +30,8 @@ public class Main
 {	
 public static void main(String[] args) {
 	    
-	    Student[] students=new Student();
-	    
 	    Student s1=new Student();
+	    
 	    s1.id=1;
 	    s1.name="Roshan";
 	    System.out.println(s1.id+"->"+s1.name);
@@ -54,10 +53,8 @@ public class Main
 {	
 public static void main(String[] args) {
 	    
-	    Student[] students=new Student();
-	    
 	    Student s1=new Student();
-	    s1.id=1;
+	    s1.id=1;//create Scanner obj and get input
 	    s1.name="Roshan";
 	    System.out.println(s1.id+"->"+s1.name);
 	    Student s2=new Student();
@@ -93,7 +90,7 @@ public static void main(String[] args) {
 	    
 	}
 }
-***************************Class with mulitple objects Using Array/ArrayList
+***************************Class with mulitple objects Using ArrayList
 
 import java.util.*;
 
@@ -121,10 +118,114 @@ public class Main {
         }
     }
 }
+Program:
+Write a Java program to Create a class named Player with the following member variables/attributes 
+
+Datatype  Variablename 
+String		Name
+String		Country	
+String		Skill
 
 
-4 PILLARS OF OOPS
+Create another class named Main and write a main method to test the above class. 
+
+Constructor:
+It has the same name as the class and does not have a return type. A constructor is called automatically when an object of the class is created.
+
+Types of Constructors
+Default Constructor (No-Argument Constructor)
+Parameterized Constructor
+copy constructor
+
+
+class ADD {
+    ADD() //Default constructor
+    {
+    System.out.println(30);
+    }
+    ADD(int a) //Parametrise constructor
+    {
+        System.out.println(a+30);
+    }
+    ADD(ADD obj)//Copy contructor
+    {
+        System.out.println("Copy contructor called");
+    }
+    
+}
+public class Main {
+    public static void main(String[] args) {
+       
+        ADD ob=new ADD(10);
+        ADD ob1=new ADD();
+        ADD ob2=new ADD(ob1);
+        
+    }
+}
+
+Progarm:
+
+Write a Java program that prints a welcome message and a hello message using two different classes Message and Hello, each with a default constructor that outputs a specific message.
+
+Input Format 
+No console Input
+
+Output Format 
+The Output Should display the Welcome Message
+
+Sample Input 
+Sample Output 
+Welcome Hello
+
+*********************4 PILLARS OF OOPS
 Encapsulation
+
+Encapsulation is one of the four fundamental principles of Object-Oriented Programming (OOP), which helps in hiding the internal details of a class and restricting direct access to data. It is achieved using private variables and public getter and setter methods.
+
+import java.util.*;
+class ADD {
+     private int x=10;
+     public void set(int x)
+     {
+         this.x=x;
+     }
+     public int get()
+     {
+         return x;
+     }
+}
+public class Main {
+    public static void main(String[] args) {
+        ADD ob=new ADD();
+        ob.set(100);
+        System.out.println(ob.get());
+    }
+}
+
+Program:
+Write a program to find the area of the wall. Create a class Wall with the following private attributes
+
+length - double
+height - double
+
+Include parameterized constructor Wall(double length, double height) and a method calculateArea() which returns the area of the wall. In the main method get the length and breadth of two walls from the user.
+
+
 Inheritance
+Inheritance is one of the key concepts in Object-Oriented Programming (OOP). It allows a child class (subclass) to acquire the properties and behaviors (fields and methods) of a parent class (superclass). This promotes code reusability and hierarchical relationships between classes.
+
+Single Inheritance → One class inherits another.
+
+Multi-level Inheritance → A class inherits another, which inherits another.
+
+Hierarchical Inheritance → Multiple classes inherit from one base class.
+
+Hybrid Inheritance → Combination of multiple inheritance types. (Not directly supported in Java due to ambiguity issues.)
+
+
+
+Why Java Does Not Support Multiple Inheritance?
+Java does not support multiple inheritance with classes because it causes the Diamond Problem (method ambiguity if inherited from two classes with the same method). Instead, Java supports multiple inheritance through interfaces.\
+
 Abstraction
 Polymorphism
